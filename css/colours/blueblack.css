@@ -292,3 +292,13 @@ a.button0,
     background: linear-gradient(135deg, #40a5c3 0%,#40a5c3 50%,#292929 50%,#292929 100%)  !important; /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40a5c3', endColorstr='#292929',GradientType=1 )  !important; /* IE6-9 fallback on horizontal gradient */
 }
+
+a {
+	color: #40a5c3;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #222222;
+	text-decoration: underline;
+}
