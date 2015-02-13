@@ -28,6 +28,7 @@ include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 		// Dislay Favicon
 		if( $smof_data['favicon_url'] ) { 			
 			echo '<link rel="shortcut icon" href="' . $smof_data['favicon_url'] . '" type="image/x-icon" />';
+			echo '<link href="http://www.kohkredhomestay.com/wp-content/uploads/2015/01/apple-touch-icon-144.png" rel="apple-touch-icon">';
 		}
 	?>
 	
