@@ -72,7 +72,7 @@ class qns_recent_posts_widget extends WP_Widget {
 							</a>
 						</div>
 						<div class="lpl-content">
-							<h6><a href="<?php echo get_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a> <span><?php _e('Posted','qns'); ?> <?php the_time('j M Y'); ?> <?php _e('By','qns');?> </span></h6>
+							<h6><a href="<?php echo get_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a> <span><?php _e('Posted','qns'); ?> <?php the_time('j M Y'); ?></span></h6>
 						</div>
 					</li>	
 
