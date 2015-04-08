@@ -11,7 +11,7 @@
 		<a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
 	</h3>
 	
-	<div class="blog-meta"><?php _e('By','qns'); ?> <?php the_author_posts_link(); ?> / <?php the_time('jS F, Y'); ?> / <?php the_category(', '); ?> / <?php comments_popup_link( 
+	<div class="blog-meta"><?php the_category(', '); ?> / <?php comments_popup_link( 
 		__( 'No Comments', 'qns' ), 
 		__( '1 Comment', 'qns' ), 
 		__( '% Comments', 'qns' ), 
